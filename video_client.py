@@ -1,5 +1,7 @@
+#importing required modules
 import socket,cv2, pickle,struct
 
+#creating a socket
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #Creating a socke
 host_ip = '192.168.0.106' # Video_server_IP
 port = 9999               # Video_server_Port

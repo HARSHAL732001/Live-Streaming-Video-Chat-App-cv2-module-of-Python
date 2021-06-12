@@ -1,3 +1,4 @@
+#importing the required modules
 import socket, cv2, pickle,struct
 
 # Creating Socket
